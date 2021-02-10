@@ -9,6 +9,5 @@ def convertirAString(numero):
         if not i%7: salida+= "Ploc"
         if not salida: salida=str(i)
         print(salida)
-
 valor = int(random.random() * 1001)
 convertirAString(valor)
